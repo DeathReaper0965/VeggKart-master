@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "829359570238",
+    "project_id": "veggkart-d0bb7"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829359570238:android:2d6463846beace7c",
+        "android_client_info": {
+          "package_name": "com.example.veggkart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829359570238-i5f62t73fl2mbt7j6ldgtt6sijmk3vk3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.veggkart",
+            "certificate_hash": "6F362F2632E8463792D5949C53FE0028CE7E3B26"
+          }
+        },
+        {
+          "client_id": "829359570238-88an8hk60resoauupn5o4v0b7kk9ccsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWBc-lUinh9FOMHnWNeuRR2ZCPcs1642s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

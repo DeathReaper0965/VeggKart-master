@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#009688</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="view_paper">#EEF8E0A0</color>
+    <color name="view_lines">#FF0000FF</color>
+    <color name="view_margin">#90FF0000</color>
+    <color name="view_text">#AA0000FF</color>
+    <color name="transparent">#00FFFFFF</color>
+</resources>

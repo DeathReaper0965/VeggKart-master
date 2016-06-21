@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    >
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:contentDescription="@string/about_image_view"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+
+        android:layout_column="0"
+        android:layout_row="0"
+        android:layout_columnWeight="1"/>
+</FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.7">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_columnWeight="2">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/productView"
+                android:textStyle="bold"
+                android:paddingTop="16dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/descView"
+                android:textStyle="italic"
+                android:paddingTop="20dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:gravity="center_horizontal"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/currency_sign_rupee"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:id="@+id/productCost"
+                android:text="0.00"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                android:gravity="center_horizontal"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:src="@drawable/button_background_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/imageButton"
+            android:background="@null"/>
+    </FrameLayout>
+</LinearLayout>
